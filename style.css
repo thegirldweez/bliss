@@ -86,7 +86,7 @@ h3 {
   background: linear-gradient( 90deg,
       rgba(0, 0, 0, 0.8) 35%, 
       rgba(0, 0, 0, 0.1)
-    ), url("/images/pedro-bariak-lVRolxDY5q0-unsplash.jpg");
+    ), url("/landing-page-travel/images/pedro-bariak-lVRolxDY5q0-unsplash.jpg");
   background-size: cover;
   background-position: center;
   border-bottom: 1px solid #a7e1e7;
@@ -218,7 +218,7 @@ figcaption {
 background: linear-gradient( 
       rgba(0, 0, 0, 0.1), 
       rgba(0, 0, 0, 0.8)
-    ), url("/images/shai-pal-05p3EF6tNzs-unsplash.jpg");
+    ), url("/landing-page-travel/images/shai-pal-05p3EF6tNzs-unsplash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
