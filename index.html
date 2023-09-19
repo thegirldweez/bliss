@@ -4,10 +4,10 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- css stylesheet -->
-    <link rel="stylesheet" href="/landing-page-travel/style.css">
+    <link rel="stylesheet" href="css/main.css">
 
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,13 +20,14 @@
   </head>
 
   <body>
+    <header>
 
-    <div id="content-container">
-
-      <div id="header">
-
+      <div class="content-wrapper">
         <div class="top-bar">
-          <div class="logo">Bliss Travel</div>
+          <div class="logo">
+            <p>Bliss Travel</p>
+          </div>
+
 
           <div class="nav">
             <ul class="site-nav">
@@ -35,91 +36,124 @@
               <li><a href="#">About Us</a></li>
               <li><a href="#">Contact Us</a></li>
             </ul>
-          </div>
-        </div><!-- end top bar -->
+          </div><!-- close nav -->
+
+        </div>
+
 
         <div class="site-hero">
+
           <div>
             <span class="hero-title">Travel with Bliss</span>
-            <p>Subtext about traveling with Bliss. Booking is a breeze.
-              Agents are knowledgeable. Destinations are breathtaking.
-              Your premier caribbean booking site. Click to learn more!
+            <p>Booking is a breeze.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna
+              aliqua. 
             </p>
             <button type="button">Explore Destinations</button>
           </div>
 
         </div>
 
-      </div><!-- close header -->
+      </div><!-- close content wrapper -->
 
+    </header>
+
+    <main>
       <div id="mid-content">
+        <div class="content-wrapper">
 
-        <div>
-        <h1>Notable Destinations</h1>
-        <p>These are our most booked destinations.</p>
+
+          <div class="info-title">
+            <h1>Notable Destinations</h1>
+            <p>These are our most booked destinations.</p>
+          </div>
+
+          <div class="destinations">
+            <div class="mini-info">
+              <img class="thumbnail" src="img/jamaica.jpg">
+              <h4>Jamaica</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
+                <a href="#">Learn more &#x2192;</a>
+              </p>
+            </div>
+
+            <div class="mini-info">
+              <img class="thumbnail" src="img/jared-rice-k3pYa0CDLl0-unsplash.jpg">
+              <h4>The Bahamas</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
+                <a href="#">Learn more &#x2192;</a>
+              </p>
+            </div>
+
+            <div class="mini-info">
+              <img class="thumbnail" src="img/roberto-nickson-dPBdgcSXHXY-unsplash.jpg">
+              <h4>Maldives</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
+                <a href="#">Learn more &#x2192;</a>
+              </p>
+            </div>
+
+            <div class="mini-info">
+              <img class="thumbnail" src="img/aruba.jpg">
+              <h4>Aruba</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
+                <a href="#">Learn more &#x2192;</a>
+              </p>
+            </div>
+          </div><!-- close destinations container -->
+
+          <figure class="quote">
+            <blockquote>
+              <p>Not all those who wander are lost.</p>
+            </blockquote>
+            <figcaption> - J.R.R. Tolkien</figcaption>
+          </figure>
         </div>
+      </div><!-- close mid content wrapper -->
 
-        <div class="destinations">
-          <div class="mini-info">
-            <img class="thumbnail" src="/landing-page-travel/images/jamaica.jpg">
-            <span class="destination-name">Jamaica</span>
-              <p>Simple blurb about this destination. More info about this destination
-                and how amazing it is.
-              <a href="#">Learn more &#x2192;</a></p>
-          </div>
-
-          <div class="mini-info">
-            <img class="thumbnail" src="/landing-page-travel/images/jared-rice-k3pYa0CDLl0-unsplash.jpg">
-            <span class="destination-name">The Bahamas</span>
-              <p>Simple blurb about this destination. More info about this destination
-                and how amazing it is.
-            <a href="#">Learn more &#x2192;</a></p>
-          </div>
-
-          <div class="mini-info">
-            <img class="thumbnail" src="/landing-page-travel/images/roberto-nickson-dPBdgcSXHXY-unsplash.jpg">
-            <span class="destination-name">Maldives</span>
-              <p>Simple blurb about this destination. More info about this destination
-                and how amazing it is.
-              <a href="#">Learn more &#x2192;</a></p>
-          </div>
-
-          <div class="mini-info">
-            <img class="thumbnail" src="/landing-page-travel/images/aruba.jpg">
-            <span class="destination-name">Aruba</span>
-              <p>Simple blurb about this destination. More info about this destination
-                and how amazing it is.
-              <a href="#">Learn more &#x2192;</a></p>
-          </div>
-        </div><!-- end destinations container -->
-
-        <figure class="quote">
-          <blockquote>
-            <p>Not all those who wander are lost.</p>
-          </blockquote>
-          <figcaption> - J.R.R. Tolkien</figcaption>
-        </figure>
-      </div><!-- close mid content -->
 
       <div id="cta">
-        <div class="connect">
-        <h2>Connect with an agent</h2><br />
-        <p>Let us know you're interested in traveling by submitting your name
-          and email address. An agent will contact you within 48 hours.</p>
-        </div>
+        <div class="content-wrapper">
 
-        <form class="subscribe">
-          <input type="text" id="name" placeholder="Name" required>
-          <input type="email" id="email" placeholder="Email" required>
-          <button type="submit">I'm ready!</button>
-        </form>
+          <div class="connect">
+            <h2>Connect with an agent</h2>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p>
+          </div>
+
+          <form class="subscribe">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <button type="submit">I'm ready!</button>
+          </form>
+        </div>
       </div><!-- close cta -->
 
-      <div id="footer">
-        <span>&#xA9; The Odin Project 2022</span> <a class="sig" href="https://www.instagram.com/_devdweez/" target="_blank">devdweez</a>
-      </div>
+    </main>
 
-    </div><!-- close content container -->
+
+    <footer>
+      <div class="content-wrapper">
+
+        <p><span>&#xA9; The Odin Project 2022</span></p>
+        <p><a class="sig" href="https://www.instagram.com/_devdweez/" target="_blank">devdweez</a></p>
+
+      </div><!-- close content wrapper -->
+
+    </footer>
 
   </body>
 
