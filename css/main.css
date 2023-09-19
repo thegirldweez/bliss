@@ -236,7 +236,7 @@ header .site-hero .hero-title {
 }
 
 .hero-button {
-  font-size: .7rem;
+  font-size: 0.7rem;
   margin-top: 25px;
   width: 100%;
 }
@@ -274,7 +274,7 @@ header .site-hero .hero-title {
 .mini-info a {
   color: #058997;
   display: block;
-  font-size: .8rem;
+  font-size: 0.8rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.4em;
@@ -286,7 +286,6 @@ header .site-hero .hero-title {
 }
 
 .mini-info h4 {
-  display: block;
   text-transform: uppercase;
   font-weight: 700;
   padding: 20px 0;
@@ -324,7 +323,7 @@ figcaption {
 
 /* -- cta area -- */
 #cta {
-  background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.8)),
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
     url("../img/shai-pal-05p3EF6tNzs-unsplash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -343,12 +342,12 @@ figcaption {
 }
 
 #cta p {
-  font-size: .9rem;
+  font-size: 0.9rem;
   text-align: justify;
   padding: 0 0 25px;
 }
 
-.subscribe {
+.subscribe form {
   /* cta form */
   display: flex;
   justify-content: center;
@@ -362,7 +361,7 @@ figcaption {
 input {
   background-color: #1b1b1b99;
   color: #e5e2e2;
-  width: 100%;
+
   border: none;
   border-radius: 5px;
   padding: 10px;
@@ -370,8 +369,8 @@ input {
 }
 
 input::placeholder {
-  font-size: .7rem;
-  
+  font-size: 0.7rem;
+
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-weight: 500;
@@ -383,7 +382,7 @@ input::placeholder {
 footer {
   color: #373f5a;
   padding: 20px 15px;
-  font-size: .7rem;
+  font-size: 0.7rem;
 }
 
 footer .content-wrapper {
@@ -500,129 +499,167 @@ footer span {
   /* ===== Tablet styles ===== */
 
   /* Global Styles */
-h1 {
-  font-size: 3rem;
-  line-height: 48px;
+  h1 {
+    font-size: 2.25rem;
+    line-height: 48px;
+  }
+  h2 {
+    font-size: 1.65rem;
+    line-height: 48px;
+  }
+  h3 {
+    font-size: 1.2rem;
+    line-height: 30px;
+  }
+
+  .content-wrapper {
+    max-width: 640px;
+  }
+
+  /* header area */
+
+  header {
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.8) 25%,
+        rgba(0, 0, 0, 0.1)
+      ),
+      url("../img/pedro-bariak-lVRolxDY5q0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  header .content-wrapper {
+  }
+
+  header .top-bar {
+    justify-content: space-between;
+    flex-flow: row wrap;
+    padding: 0 0 25px;
+  }
+
+  header .logo {
+    width: 30%;
+  }
+  header .logo p {
+    font-size: 2rem;
+    text-align: left;
+  }
+
+  header .nav {
+    justify-content: right;
+    width: 55%;
+  }
+  header .site-nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  header .site-hero {
+    justify-content: left;
+    margin: 35px 0 0;
+    width: 55%;
+  }
+  header .site-hero p {
+    font-size: 0.9rem;
+  }
+  header .site-hero .hero-button {
+    width: 50%;
+  }
+
+  /* mid-content area */
+
+  #mid-content .quote figure {
+    width: 65%;
+  }
+
+  #mid-content .quote {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* footer */
+
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* cta area */
+  #cta .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  #cta .connect {
+    width: 45%;
+  }
+
+  #cta .connect h2 {
+    margin: 0 0 15px;
+  }
+
+  #cta .subscribe {
+    width: 40%;
+  }
+
+  .subscribe form {
+    /* cta form */
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+  }
 }
-h2 {
-  font-size: 2.25rem;
-  line-height: 48px;
-}
-h3 {
-  font-size: 1.5rem;
-  line-height: 30px;
-}
-
-.content-wrapper {
-  max-width: 640px;
-}
-
-/* header area */
-
-header { 
-  background: linear-gradient(
-      90deg,
-      rgba(0, 0, 0, 0.8) 25%,
-      rgba(0, 0, 0, 0.1)
-    ),
-    url("../img/pedro-bariak-lVRolxDY5q0-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-header .content-wrapper {
-
-}
-
-header .top-bar {
-  justify-content: space-between;
-  flex-flow: row wrap;
-  padding: 0 0 25px;
-}
-
-header .logo {
-  width: 30%;
-}
-header .logo p {
-  font-size: 2rem;
-  text-align: left;
-}
-
-header .nav {
-  justify-content: right;
-  width: 55%;
-}
-header .site-nav {
-  display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-}
-
-header .site-hero {
-  justify-content: left;
-  margin: 35px 0 0;
-  width: 55%;
-}
-header .site-hero .hero-button {
-  width: 50%;
-}
-
-/* mid-content area */
-
-#mid-content .quote figure {
-  width: 65%;
-}
-
-#mid-content .quote {
-  display: flex;
-  justify-content: center;
-}
-
-}
-
-
-
-
 
 @media only screen and (min-width: 1200px) {
-/* ======== Desktop styles here ======== */
+  /* ======== Desktop styles here ======== */
 
-/* Global Styles */
-h1 {
-  font-size: 3.75rem;
+  /* Global Styles */
+  h1 {
+    font-size: 3.75rem;
+  }
+  h2 {
+    font-size: 2.25rem;
+  }
+  h3,
+  h4 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.9rem;
+    line-height: 24px;
+  }
+
+  .content-wrapper {
+    max-width: 960px;
+  }
+
+  /* mid content area */
+  #mid-content .destinations {
+    padding: 45px 0;
+  }
+
+  #mid-content .destinations .mini-info {
+    padding: 0 20px 75px;
+  }
+
+  .quote blockquote {
+    margin: 20px 0;
+  }
+
+  /* cta area */
+  .subscribe input[type="text"],
+  .subscribe button {
+    padding: 5px;
+    line-height: 18px;
+    font-size: 0.9rem;
+  }
+
+  /* footer */
+  footer .content-wrapper p {
+    font-size: 0.7rem;
+  }
 }
-h2 {
-  font-size: 2.25rem;
-}
-h3,
-h4 {
-  font-size: 1.875rem;
-}
-p {
-  font-size: 1.125rem;
-  line-height: 24px;
-}
-
-.content-wrapper {
-  max-width: 960px;
-}
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
